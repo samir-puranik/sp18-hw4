@@ -1,7 +1,7 @@
 ## Questions
 
 1. What is the difference between `new` and `create` for a model?
-New makes a new instance of an object to be added to the database with uninitialized fields. Create actually fills in the fields and saves the object to the database.
+New makes a new instance of an object to be added to the database with uninitialized fields and does not save it. Create can actually fill in the fields and it also saves the object to the database at the same time.
 
 2. What command followed after with `Cat.new` will emulate the same behavior as `Cat.create`?
 The .save command used immediately after the .new command will emulate the same behavior as .create. Both ways create a cat that has no initialized fields.
