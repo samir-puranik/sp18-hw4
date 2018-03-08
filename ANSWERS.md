@@ -10,7 +10,7 @@ The .save command used immediately after the .new command will emulate the same 
 The id column is an integer column that exists on every table we did not define.
 
 4. What single line of ruby code can insert a cat with the name "Kira" in the database?
-Cat.create :name => "Kira
-"
+Cat.create :name => "Kira"
+
 5. How did you like this homework in comparison with the previous homeworks?
 This homework was a lot of fun to do. It was interesting to see how models and databases can operate under the Rails framework.
